@@ -1,8 +1,12 @@
+import Link from 'next/link';
+
 function Blog(){
 
     return(
     <>
-    <h1>BLOG</h1>
+    <h1>BLOG</h1><br/><br/>
+
+    <Link href='/blog/java'><h2>Articulos de Java</h2></Link>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
       sed do eiusmod tempor incididunt ut labore et dolore magna 
       aliqua. Ut enim ad minim veniam, quis nostrud exercitation
