@@ -51,6 +51,14 @@ function Blog(){
         <p>Java soporta ocho tipos de datos primitivos. Estos tipos de variables contienen valores simples y se dividen en cuatro categorías principales: enteros, punto flotante, caracteres y booleanos.</p>
         <br /><br />
 
+        <h3>a. Enteros</h3>
+        <p><b>Byte:</b> Representa un valor de 8 bits con signo. Rango: -128 a 127.</p>
+        <p><b>Short:</b> Representa un valor de 16 bits con signo. Rango: -32,768 a 32,767.</p>
+        <p><b>Int:</b> Representa un valor de 32 bits con signo. Rango: -2^31 a 2^31-1.</p>
+        <p><b>Long:</b> Representa un valor de 64 bits con signo. Rango: -2^63 a 2^63-1.</p>
+        <br /><br />
+
+
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
       sed do eiusmod tempor incididunt ut labore et dolore magna 
       aliqua. Ut enim ad minim veniam, quis nostrud exercitation
