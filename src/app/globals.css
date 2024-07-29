@@ -47,6 +47,16 @@ nav{
 }
 
 
+/*Smartphones */
+@media (max-width: 767px){
+
+
+    #pLI{
+        font-size: 15px;
+    }
+  }
+
+
 
 
 

@@ -1,4 +1,4 @@
-
+import styles from "../page.module.css";
 import Image from 'next/image';
 import img from '../imagenes/AU.jpg';
 
@@ -7,7 +7,7 @@ function AboutUs(){
     return(
     <>
     <h1>SOBRE NOSOTROS</h1><br/>
-    <Image src={img} alt ="logo" width ={900} height ={500}/><br/><br/>
+    <Image src={img} className ={styles.imgInicio} alt ="logo"  width={900} height={500}/><br/><br/>
     <p>Somos un sitio web dedicado a crear blogs sobre programacion 
       en diferentes lenguajes (Java, C#, Python, JavaScript, etc.) para 
       aquellas personas que estan comenzando en el camino de covertirse

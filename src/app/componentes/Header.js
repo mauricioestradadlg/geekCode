@@ -14,9 +14,9 @@ function Header(){
             <div id ="nav">
                 <nav>
                     <ul>
-                        <li><Link href ='/'><p>Inicio</p></Link></li>
-                        <li><Link href ='/sobrenosotros'><p>Sobre Nosotros</p></Link></li>
-                        <li><Link href ='/blog'><p>Blog</p></Link></li>
+                        <li><Link href ='/'><p id='pLI'>Inicio</p></Link></li>
+                        <li><Link href ='/sobrenosotros'><p id='pLI'>Sobre Nosotros</p></Link></li>
+                        <li><Link href ='/blog'><p id='pLI'>Blog</p ></Link></li>
                     </ul>
                 </nav>
             </div>
