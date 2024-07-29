@@ -1,10 +1,16 @@
 import Link from 'next/link';
+import Image from 'next/image';
+import java2 from '../imagenes/javaBlogs.jpg';
+import styles from '../page.module.css'
 
 function Blog(){
 
     return(
     <>
     <h1>JAVA</h1><br/><br/>
+
+    <Image src={java2} className={styles.imgInicio} alt ="logo"  width={900} height={500}/>
+    <br/><br/>
 
     <Link href='/blog/java/tiposVariables'><h2>Tipos de Variables de Java</h2></Link>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 

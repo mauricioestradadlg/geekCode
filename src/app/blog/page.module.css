@@ -1,0 +1,31 @@
+/* INICIO*/
+
+#h1Inicio{
+    font-size: 70px;
+}
+
+
+
+/*Smartphones */
+@media (max-width: 767px){
+
+
+    .imgInicio{
+
+        height: 125px;
+        width: 225px;
+    }
+  
+  }
+
+  /*Tabletas pequeñas */
+  @media (min-width: 768px) and (max-width: 1023px){
+
+    .imgInicio{
+
+        height: 250px;
+        width: 450px;
+    }
+
+   
+  }
