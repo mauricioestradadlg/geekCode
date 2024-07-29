@@ -14,7 +14,7 @@ export const metadata = {
     url: 'https://geekcode.blog/blog/java/tiposVariables',
     title: 'Tipos de Variables en Java - Geek Code',
     description: 'Este es un blog acerca de los tipos de variables que hay en Java',
-    image: '../imagenes/openGraph.png',
+   
    
   },
 
@@ -24,7 +24,7 @@ export const metadata = {
     creator: '@GeekCode',
     title: 'Tipos de Variables en Java - Geek Code',
     description: 'Este es un blog acerca de los tipos de variables que hay en Java',
-    image: '../imagenes/openGraph.png', 
+  
   },
   canonical: 'https://geekcode.blog/blog/java/tiposVariables',
   
@@ -34,6 +34,7 @@ function Blog(){
 
     return(
     <>
+      <main>
       <h1>TIPOS DE VARIABLES EN JAVA</h1>
       <Image src={java3} className={styles.imgInicio} alt="Java Variables" width={900} height={500} />
 
@@ -74,6 +75,7 @@ function Blog(){
         <h2>5. Variables de Clase</h2>
         <p>Las variables de clase (también conocidas como variables estáticas) son declaradas con la palabra clave <code>static</code> dentro de una clase, pero fuera de cualquier método. Solo hay una copia de la variable de clase, independientemente de cuántos objetos se creen de la clase.</p>
       </article>
+      </main>
     </>);
 }
 
