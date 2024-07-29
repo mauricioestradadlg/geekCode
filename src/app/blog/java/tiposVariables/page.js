@@ -47,6 +47,10 @@ function Blog(){
          sus usos y características.</p>
       <br />
 
+      <h2>1. Variables Primitivas</h2>
+        <p>Java soporta ocho tipos de datos primitivos. Estos tipos de variables contienen valores simples y se dividen en cuatro categorías principales: enteros, punto flotante, caracteres y booleanos.</p>
+        <br /><br />
+
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
       sed do eiusmod tempor incididunt ut labore et dolore magna 
       aliqua. Ut enim ad minim veniam, quis nostrud exercitation
