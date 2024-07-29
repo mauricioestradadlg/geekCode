@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://geekcode.blog/
+
+# Sitemaps
+Sitemap: https://geekcode.blog/sitemap.xml
