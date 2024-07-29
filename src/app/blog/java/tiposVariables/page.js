@@ -39,6 +39,14 @@ function Blog(){
       <Image src={java3} className={styles.imgInicio} alt="Java Variables" width={900} height={500} />
 
       <article>
+      <p>Java es un lenguaje de programación robusto y ampliamente 
+        utilizado en el desarrollo de aplicaciones de escritorio, web 
+        y móviles. Una de las características esenciales de cualquier l
+        enguaje de programación son las variables, y Java no es la excepción.
+         En este artículo, exploraremos los diferentes tipos de variables en Java, 
+         sus usos y características.</p>
+      <br />
+
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
       sed do eiusmod tempor incididunt ut labore et dolore magna 
       aliqua. Ut enim ad minim veniam, quis nostrud exercitation
