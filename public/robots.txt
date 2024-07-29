@@ -1,9 +1,3 @@
-const generateRobotsTxt = () => `User-agent: *
+User-agent: *
 Allow: /
-Sitemap: https://geekcode.blog/sitemap.xml`;
-
-export default function handler(req, res) {
-  res.setHeader('Content-Type', 'text/plain');
-  res.write(generateRobotsTxt());
-  res.end();
-}
+Sitemap: https://geekcode.blog/sitemap.xml
