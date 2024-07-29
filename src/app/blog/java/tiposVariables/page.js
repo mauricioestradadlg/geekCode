@@ -58,37 +58,21 @@ function Blog(){
         <p><b>Long:</b> Representa un valor de 64 bits con signo. Rango: -2^63 a 2^63-1.</p>
         <br /><br />
 
+        <h3>b. Punto Flotante</h3>
+        <p><b>Float:</b> Representa un valor de punto flotante de 32 bits. Adecuado para ahorrar memoria en grandes arrays de números decimales.</p>
+        <p><b>Double:</b> Representa un valor de punto flotante de 64 bits. Es el tipo de dato para decimales más utilizado.</p>
+        <br /><br />
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-      sed do eiusmod tempor incididunt ut labore et dolore magna 
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      </p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-      sed do eiusmod tempor incididunt ut labore et dolore magna 
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      </p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-      sed do eiusmod tempor incididunt ut labore et dolore magna 
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      </p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-      sed do eiusmod tempor incididunt ut labore et dolore magna 
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      </p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-      sed do eiusmod tempor incididunt ut labore et dolore magna 
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      </p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-      sed do eiusmod tempor incididunt ut labore et dolore magna 
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      </p>
+        <h3>c. Caracteres</h3>
+        <p><b>Char:</b> Representa un solo carácter de 16 bits. Utiliza comillas simples, por ejemplo, 'a'.</p>
+        <br /><br />
+
+        <h3>d. Booleanos</h3>
+        <p><b>Boolean:</b> Representa un valor verdadero o falso. Solo puede tomar los valores <i>true</i> o <i>false</i>.</p>
+        <br /><br />
+
+
+
       </article>
       </main>
     </>);
