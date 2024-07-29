@@ -10,8 +10,19 @@ export const metadata = {
     url: 'https://geekcode.blog/blog/java/tiposVariables',
     title: 'Tipos de Variables en Java - Geek Code',
     description: 'Este es un blog acerca de los tipos de variables que hay en Java',
+    image: '.../imagenes/javaBlogs.jpg',
    
   },
+
+  twitter: {
+    card: 'summary_large_image',
+    site: '@GeekCode',
+    creator: '@GeekCode',
+    title: 'Tipos de Variables en Java - Geek Code',
+    description: 'Este es un blog acerca de los tipos de variables que hay en Java',
+    image: '.../imagenes/javaBlogs.jpg', 
+  },
+  canonical: 'https://geekcode.blog/blog/java/tiposVariables',
   
 };
 
