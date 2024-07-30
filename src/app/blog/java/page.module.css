@@ -1,13 +1,36 @@
-/* INICIO*/
 
 #h1Inicio{
-    font-size: 70px;
+    font-size: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#h2Blog{
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 
+#pBlog{
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 /*Smartphones */
 @media (max-width: 767px){
+
+  #h1Inicio{
+    font-size: 50px;
+}
+
+
+#h2Blog{
+  font-size: 40px;
+}
+
+#pBlog{
+  font-size: 20px;
+}
+
 
 
     .imgInicio{
@@ -20,6 +43,19 @@
 
   /*Tabletas pequeñas */
   @media (min-width: 768px) and (max-width: 1023px){
+
+    #h1Inicio{
+      font-size: 80px;
+  }
+
+  #h2Blog{
+    font-size: 70px;
+  }
+
+  #pBlog{
+    font-size: 35px;
+  }
+  
 
     .imgInicio{
 
