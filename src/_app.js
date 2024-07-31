@@ -6,6 +6,11 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
+      {/* Google Adsense */}
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8550953934652718"
+     crossorigin="anonymous"></script>
+
+
         {/* Google Analytics */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-YYD70KBY3L"></script>
         <script
