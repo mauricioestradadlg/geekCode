@@ -70,6 +70,9 @@ function Blog() {
       <p id={styles.pBlog}>El operador ternario es una forma compacta de escribir una condición if-else. Es ideal para situaciones donde se necesita asignar un valor basado en una condición en una sola línea.</p>
       <Image src={img6} className={styles.imgInicio} alt="Java Variables" width={900} height={500} />
       <br/><br/>
+
+      <h2 id={styles.h2Blog}>Conclusion</h2><br/>
+      <p id={styles.pBlog}>En conclusión, comprender y utilizar adecuadamente los diferentes tipos de estructuras condicionales en Java es fundamental para escribir programas que respondan de manera efectiva a diferentes escenarios. Desde el uso básico de if y else hasta la implementación de switch y operadores ternarios, estas herramientas permiten a los desarrolladores tomar decisiones lógicas y eficientes en sus aplicaciones. Al dominar estos condicionales, los programadores pueden crear aplicaciones más robustas y dinámicas que respondan correctamente a las necesidades de los usuarios.</p>
     </>
   );
 }

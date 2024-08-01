@@ -104,6 +104,9 @@ function Blog(){
       <p id={styles.pBlog}>Las variables de clase (también conocidas como variables estáticas) son declaradas con la palabra clave <code>static</code> dentro de una clase, pero fuera de cualquier método. Solo hay una copia de la variable de clase, independientemente de cuántos objetos se creen de la clase.</p>
       <Image src={img10} className={styles.imgInicio} alt="Java Variables" width={900} height={500} />
       <br/><br/>
+
+      <h2 id={styles.h2Blog}>Conclusion</h2><br/>
+      <p id={styles.pBlog}>En resumen, las variables son la piedra angular de cualquier lenguaje de programación, y Java ofrece una amplia variedad de tipos de variables que se adaptan a diferentes necesidades de programación. Desde variables primitivas que almacenan valores simples hasta variables de referencia que apuntan a objetos complejos, cada tipo de variable tiene su propósito y uso específico. Entender la diferencia entre variables locales, de instancia y de clase es crucial para manejar el estado y el comportamiento de los objetos en Java. Al utilizar correctamente los tipos de variables, los desarrolladores pueden mejorar la eficiencia y la claridad de su código, asegurando aplicaciones más efectivas y mantenibles.</p>
     </>
   );
 }
