@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import img1 from '../imagenes/img1.png';
 import img2 from '../imagenes/img2.png';
