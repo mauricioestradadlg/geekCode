@@ -9,6 +9,9 @@ import img4 from '../imagenes/img27.png';
 
 
 
+
+
+
 export const metadata = {
   title: "Tipos de Ciclos en Java - Geek Code",
   description: "Este es un blog acerca de los tipos de ciclos que hay en Java",
