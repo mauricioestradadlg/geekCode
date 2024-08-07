@@ -6,6 +6,7 @@ import img2 from '../imagenes/condicionales.png';
 import img3 from '../imagenes/dataJava.png';
 import img4 from './imagenes/ciclosJava.png';
 import img5 from './imagenes/operadoresJava.png';
+import img6 from '../imagenes/funcionesJava.png'
 import styles from '../page.module.css'
 
 function Blog(){
@@ -36,6 +37,10 @@ function Blog(){
 
     <Link href='/blog/java/operadoresLogicos'><h2>Tipos de Operadores Logicos en Java</h2></Link>
     <Image src={img5} className={styles.imgInicio} alt ="logo"  width={900} height={500}/>
+    <br/>
+
+    <Link href='/blog/java/funciones'><h2>Funciones en Java</h2></Link>
+    <Image src={img6} className={styles.imgInicio} alt ="logo"  width={900} height={500}/>
     <br/>
 
     
