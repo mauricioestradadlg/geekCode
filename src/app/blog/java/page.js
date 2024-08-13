@@ -8,6 +8,7 @@ import img4 from './imagenes/ciclosJava.png';
 import img5 from './imagenes/operadoresJava.png';
 import img6 from '../imagenes/funcionesJava.png'
 import img7 from '../imagenes/mathJava.png'
+import img8 from '../imagenes/arregloMatriz.png'
 import styles from '../page.module.css'
 
 function Blog(){
@@ -46,6 +47,10 @@ function Blog(){
 
     <Link href='/blog/java/math'><h2>Funciones Matematicas en Java</h2></Link>
     <Image src={img7} className={styles.imgInicio} alt ="logo"  width={900} height={500}/>
+    <br/>
+
+    <Link href='/blog/java/arregloMatriz'><h2>Arreglos y Matrices en Java</h2></Link>
+    <Image src={img8} className={styles.imgInicio} alt ="logo"  width={900} height={500}/>
     <br/>
 
     
